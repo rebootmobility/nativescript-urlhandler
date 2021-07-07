@@ -1,7 +1,10 @@
 {
-    "name": "nativescript-urlhandler",
-    "version": "1.3.0",
+    "name": "@reboot-mobility/nativescript-urlhandler",
+    "version": "1.3.1",
     "description": "Register custom URLs for your NativeScript app",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+      },
     "scripts": {
         "preclean": "npm i rimraf",
         "clean": "rimraf node_modules hooks platforms target urlhandler.*.js urlhandler.*.d.ts *.ngsummary.json *.metadata.json *.js.map  test/e2e/**/*.js test/e2e/**/*.js.map test/e2e/platforms test/e2e/node_modules test/e2e/hooks",
@@ -78,7 +81,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hypery2k/nativescript-urlhandler.git"
+        "url": "git+https://github.com/rebootmobility/nativescript-urlhandler.git"
     },
     "nativescript": {
         "platforms": {
@@ -99,7 +102,7 @@
     "author": "Martin Reinhardt",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/hypery2k/nativescript-urlhandler/issues"
+        "url": "https://github.com/rebootmobility/nativescript-urlhandler/issues"
     },
-    "homepage": "https://github.com/hypery2k/nativescript-urlhandler"
+    "homepage": "https://github.com/rebootmobility/nativescript-urlhandler"
 }
